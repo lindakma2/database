@@ -1,0 +1,28 @@
+/*增加新帳號， 11/27改，把上面都移到style*/
+/* 表單的部分 白底透明的區塊 */
+.find_file_increase {
+	width:600px; /*白底部分的長寬*/
+	height:180px;
+	/*position: absolute; 將區塊移到頁面正中間0101刪*/
+	top:50%;
+	left: 50%;
+	margin: 8% auto 0 auto; /*0101改*/
+	padding: 0.1% 1% 2% 1%; /*0101加*/
+	width:40%; /*0101加*/
+	border-radius: 15px;
+	border-radius: 15px;
+	vertical-align: middle;
+	background-color: rgba(255, 255, 255, 0.4);
+	text-align:center;
+}
+
+p {
+	display: inline-block;	
+}
+
+/*表單中的按鈕樣式*/
+input[type= "file"]{
+	padding:6px !important;
+	border-radius:5px !important;
+	border: none !important;
+}

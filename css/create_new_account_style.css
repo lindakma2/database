@@ -1,0 +1,15 @@
+/*增加新帳號， 11/27改，把上面都移到style*/
+/* 表單的部分 白底透明的區塊 */
+.create_account {
+	width:600px; /*白底部分的長寬*/
+	height:430px;
+	position: absolute; /*將區塊移到頁面正中間*/
+	top:50%;
+	left: 50%;
+	margin: -215px 0 0 -300px;
+	border-radius: 15px;
+	vertical-align: middle;
+	background-color: rgba(255, 255, 255, 0.4);
+	text-align:center;
+	
+}

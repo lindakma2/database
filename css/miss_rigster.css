@@ -1,0 +1,51 @@
+/*拾獲物搜尋頁面*/
+/*新增拾獲物的部分、選擇查詢條件的部分，白底透明的區塊*/
+.miss_rigster{
+	margin: 20px 300px 0px 300px;
+	border-radius: 15px;
+	vertical-align: middle;
+	background-color: rgba(255, 255, 255, 0.4);
+	text-align:left;	
+	padding: 0px 18px 18px 18px; /*上右下左*，因為p有margin, 所以上面不設*/
+}
+
+p {
+	display: inline-block;
+	
+}
+input[type= "submit"]
+{
+	margin-left: 40px;/*左*/
+}
+input[type= "date"]
+{
+	margin-right: 40px;/*右*/
+}
+input[type= "text"]
+{
+	margin-right: 40px;/*右*/
+}
+select
+{
+	padding: 6px;
+    border-radius: 5px;
+    border: solid;
+    border-color: #ffffff;
+	margin-right: 40px;/*右*/
+}
+
+table 
+{
+  border-collapse: collapse;
+  width : 100%;/*這行和下一行是平均分配欄寬*/
+  table-layout: fixed;
+  padding-top: 18px;
+}
+
+table td , table th
+{
+  border: 1px solid white;
+  padding: 5px;
+  color: #46413e;
+  font-family: 標楷體;
+}
